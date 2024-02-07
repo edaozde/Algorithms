@@ -14,3 +14,5 @@ console.log(evenOrOdd(10));
 
 
 module.exports = evenOrOdd;
+
+// const evenOrOdd = (number) => number % 2 ? "Odd" : 'Even'; 
