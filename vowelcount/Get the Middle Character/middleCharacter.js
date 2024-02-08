@@ -11,13 +11,14 @@ const getMiddle = (s) => {
     return s.slice(mid - 1, mid);
   } else {
     const mid2 = s.length / 2;
-    return s.slice(mid2 - 1, mid2 + 1);
+    console.log(mid2 + 1)
+    return s.slice(mid2-1, mid2 + 1);
   }
 };
 
-console.log(getMiddle("chien"));
+// console.log(getMiddle("chien"));
 console.log(getMiddle("test"));
-console.log(getMiddle("middle"));
+// console.log(getMiddle("middle"));
 
 
 module.exports=getMiddle;
